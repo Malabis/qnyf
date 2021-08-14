@@ -14,7 +14,7 @@
 ### 解决root用户不能运行Chrome
   vim /opt/google/chrome/google-chrome
   #将最后一行改写为: exec -a "$0" "$HERE/chrome" "$@" --no-sandbox $HOME
-### chromedriver安装
+## chromedriver安装
 ### 验证google Chrome版本
   google-chrome-stable -version
 ### 下载ChromeDriver安装
