@@ -91,4 +91,4 @@ if __name__ == "__main__":
     dayliycheck=driver.find_element_by_xpath("//button[@class='sign-in-btn van-button van-button--info van-button--normal']")
     dayliycheck.click()
     time.sleep(3)
-    driver.close()
+    driver.quit()
